@@ -111,5 +111,9 @@ Contributions are what make the open source community such an amazing place to b
 ## Contact
 - [Vidhi Mody](https://vidhi-mody.netlify.app/) <[@vidhi-mody](https://github.com/vidhi-mody),  vidhimody6@gmail.com>
 
+## Acknowledgements
+
+*This project is a part of the Full Stack Project Task by Foreign Admits.* 
+
 
 Project Link: [https://github.com/vidhi-mody/Persona-A-MEAN-Stack-Application](https://github.com/vidhi-mody/Persona-A-MEAN-Stack-Application)

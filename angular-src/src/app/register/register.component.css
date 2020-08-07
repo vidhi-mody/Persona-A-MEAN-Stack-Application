@@ -8,6 +8,10 @@ body {
   background: linear-gradient(to right, #0062E6, #33AEFF);
 }
 
+#emailHelp{
+  text-align: center;
+}
+
 .card-signin {
   border: 0;
   border-radius: 1rem;

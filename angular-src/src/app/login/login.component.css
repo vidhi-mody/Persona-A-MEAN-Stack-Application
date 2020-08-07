@@ -74,6 +74,13 @@
   color: #777;
 }
 
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+  border-radius: 2rem;
+}
+
+
 /* Fallback for Edge
 -------------------------------------------------- */
 

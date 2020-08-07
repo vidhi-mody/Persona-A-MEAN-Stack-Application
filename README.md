@@ -26,6 +26,9 @@ This project would never have been possible without these wonderful frameworks a
 - [Angular CLI](https://cli.angular.io/)
 - [MongoDB](https://www.mongodb.com/)
 - [Express](https://expressjs.com/)
+- [Passport](http://www.passportjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Handlebars](https://handlebarsjs.com/)
 
 <!-- GETTING STARTED -->
 

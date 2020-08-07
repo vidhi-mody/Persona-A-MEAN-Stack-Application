@@ -6,6 +6,14 @@ const passport = require('passport');
 // router.get('/', function(req, res, next) {
 //   res.send('respond with a resource');
 // });
+function isAuthorized(req,res,next){
+  if(req.isAuthenticated()){
+    next()
+  }
+  else{
+  return res.status(401).json({message:'Unauthorized Request'});
+  }
+}
 
 router.post('/register', function (req, res, next) {
   addToDB(req, res);
@@ -55,20 +63,20 @@ router.post('/login',function(req,res,next){
 });
 
 
-router.get('/user',isValidUser,function(req,res,next){
+router.get('/user',isAuthorized,function(req,res,next){
   return res.status(200).json(req.user);
 });
 
-router.get('/settings',isValidUser,function(req,res,next){
+router.get('/settings',isAuthorized,function(req,res,next){
   return res.status(200).json(req.user);
 });
 
-router.put('/settings',isValidUser,function(req,res,next){
-   updatedatabase(req,res)
+router.put('/settings',isAuthorized,function(req,res,next){
+   updateSettings(req,res)
 
 });
 
-async function updatedatabase(req,res){
+async function updateSettings(req,res){
   
   User.findByIdAndUpdate(req.user._id,req.body).exec().then(result=>{
     return res.status(201).json(result);
@@ -78,18 +86,9 @@ async function updatedatabase(req,res){
 }
   
 
-router.get('/logout',isValidUser,function(req,res,next){
+router.get('/logout',isAuthorized,function(req,res,next){
   req.logout();
   return res.status(200).json({message:'Logout Successful'});
 });
-
-function isValidUser(req,res,next){
-  if(req.isAuthenticated()){
-    next()
-  }
-  else{
-  return res.status(401).json({message:'Unauthorized Request'});
-  }
-}
 
 module.exports = router;

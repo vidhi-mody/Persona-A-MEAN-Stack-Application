@@ -61,7 +61,7 @@ cd angular-src
 npm install
 ```
 
-3. Create a .env file in `backend` with valid credentials as follows
+3. Create a .env file in `backend` folder with valid credentials as follows
 
 ```
 GOOGLE_CLIENT_ID=<your_google_client_id>

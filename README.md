@@ -20,7 +20,7 @@ Persona is a MEAN Stack Application which includes features like account creatio
 
 ### Built With
 
-This project would never have been possible without these wonderful frameworks and project.
+This project would never have been possible without these wonderful frameworks.
 
 - [Node.js](https://nodejs.org)
 - [Angular CLI](https://cli.angular.io/)

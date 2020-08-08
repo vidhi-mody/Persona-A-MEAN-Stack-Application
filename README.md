@@ -36,6 +36,10 @@ This project would never have been possible without these wonderful frameworks a
 
 ### Prerequisites
 
+- Node.js (Download it [here](https://nodejs.org/en/download/).)
+- Anguular CLI (`npm install -g @angular/cli`)
+- MongoDB (Download it [here](https://www.mongodb.com/try/download/community))
+- Google Developer Account (Create one [here](https://console.developers.google.com/))
 
 ### Startup
 

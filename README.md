@@ -36,7 +36,7 @@ This project would never have been possible without these wonderful frameworks.
 
 ### Prerequisites
 
-- Node.js (Download it [here](https://nodejs.org/en/download/).)
+- Node.js (Download it [here](https://nodejs.org/en/download/))
 - Anguular CLI (`npm install -g @angular/cli`)
 - MongoDB (Download it [here](https://www.mongodb.com/try/download/community))
 - Google Developer Account (Create one [here](https://console.developers.google.com/))
@@ -116,7 +116,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- CONTACT -->
 
 ## Contact
-- [Vidhi Mody](https://vidhi-mody.netlify.app/) <[@vidhi-mody](https://github.com/vidhi-mody),  vidhimody6@gmail.com>
+- [Vidhi Mody](https://vidhi-mody.netlify.app/) <[@vidhi-mody](https://github.com/vidhi-mody),  [Email](vidhimody6@gmail.com)>
 
 ## Acknowledgements
 
